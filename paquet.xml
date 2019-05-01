@@ -8,9 +8,8 @@
 	documentation="https://contrib.spip.net/html5"
 >
 	<nom>HTML5 dans SPIP</nom>
-	<!-- Bases pour faire un site en HTML5 -->
-
 	<auteur>davux</auteur>
+	<licence>GNU/GPL</licence>
 
 	<pipeline nom="insert_head" inclure="html5_pipelines.php" />
 	<pipeline nom="insert_head_css" inclure="html5_pipelines.php" />
