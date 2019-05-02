@@ -11,12 +11,14 @@
 	<description>Ce plugin améliore l'usage de HTML5 dans votre site SPIP en ajoutant :
 -* un script pour émuler les balises HTML5 dans les vieux navigateurs,
 -* surcharge de certains formulaires SPIP,
--* correction des erreurs résiduelles dans le code généré.
+-* correction des erreurs résiduelles dans le code généré,
+-# en plus d'avoir activé HTML5 dans SPIP.
 	</description>
-	<auteur>davux</auteur>
-	<auteur>[tetue->http://spip.tetue.net]</auteur>
-	<licence>GNU/GPL, WTFPL</licence>
 	<lien>https://contrib.spip.net/html5</lien>
+
+	<auteur>davux, [tetue->http://spip.tetue.net]</auteur>
+	<licence>GNU/GPL, WTFPL</licence>
+	<credit lien="https://github.com/aFarkas/html5shiv">html5shiv</credit>
 
 	<options>html5_options.php</options>
 
