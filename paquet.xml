@@ -1,7 +1,7 @@
 <paquet
 	prefix="html5"
 	categorie="outil"
-	version="0.2.4"
+	version="0.2.5"
 	etat="dev"
 	compatibilite="[2.0.0;3.2.*]"
 	logo="html5.png"
@@ -12,4 +12,5 @@
 	<licence>GNU/GPL</licence>
 
 	<pipeline nom="insert_head_css" inclure="html5_pipelines.php" />
+	<necessite id="figure" version="[1.0.1;]" />
 </paquet>

@@ -3,14 +3,14 @@
 	<prefix>html5</prefix>
 	<icon>html5.png</icon>
 
-	<version>0.2.4</version>
+	<version>0.2.5</version>
 	<etat>dev</etat>
 	<categorie>outil</categorie>
 
-	<slogan>Bases pour faire un site en HTML5</slogan>
-	<description>Ce plugin pose les bases pour faire un site en HTML5. Il fournit actuellement:
+	<slogan>Patch pour utiliser HTML5 dans SPIP</slogan>
+	<description>Ce plugin améliore l'usage de HTML5 dans SPIP en ajoutant :
 -* un patch pour émuler les balises HTML5 dans Internet Explorer aussi
--* une surcharge de certains formulaires SPIP pour utiliser les nouveaux types d'<code><input></code>
+-* une surcharge de certains formulaires SPIP
 	</description>
 	<licence>GNU/GPL</licence>
 	<auteur>davux</auteur>
@@ -23,4 +23,5 @@
 	</pipeline>
 
 	<necessite id="SPIP" version="[2.0.0;3.2.99]" />
+	<necessite id="figure" version="[1.0.1;]" />
 </plugin>
