@@ -3,13 +3,13 @@
 	<prefix>html5</prefix>
 	<icon>html5.png</icon>
 
-	<version>0.3.0</version>
+	<version>1.0.0</version>
 	<etat>dev</etat>
 	<categorie>outil</categorie>
 
-	<slogan>Patch pour mieux utiliser HTML5 dans SPIP</slogan>
-	<description>Ce plugin améliore l' usage de HTML5 dans votre site SPIP en ajoutant :
--* patch pour émuler les balises HTML5 dans les vieux Internet Explorer,
+	<slogan>Mieux utiliser HTML5 dans SPIP</slogan>
+	<description>Ce plugin améliore l'usage de HTML5 dans votre site SPIP en ajoutant :
+-* un script pour émuler les balises HTML5 dans les vieux navigateurs,
 -* surcharge de certains formulaires SPIP,
 -* correction des erreurs résiduelles dans le code généré.
 	</description>

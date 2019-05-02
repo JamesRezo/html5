@@ -1,6 +1,6 @@
 <?php
 
-// https://github.com/aFarkas/html5shiv
+// Inserer html5shiv
 function html5_insert_head($flux) {
 	$javascript_ie = find_in_path('js/html5shiv.js');
 	$flux .= html5_insert_head_css('')
