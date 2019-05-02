@@ -1,5 +1,7 @@
 <?php
 
+$GLOBALS['meta']['version_html_max'] = 'html5';
+
 /**
  * HTML5 cleaner for SPIP
  * (c) 2016 WTFPL License
@@ -12,7 +14,7 @@ $GLOBALS['spip_pipeline']['affichage_final'] .= '|html5cleaner';
 function html5cleaner($texte) {
 
 	// head
-//  $texte = str_replace('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />', '<meta charset="utf-8">', $texte);
+//	$texte = str_replace('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />', '<meta charset="utf-8">', $texte); // DIY!
 	$texte = str_replace(' xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"', '', $texte);
 	$texte = str_replace(' xmlns="http://www.w3.org/1999/xhtml"', '', $texte);
 	$texte = str_replace('<link rel="stylesheet" type="text/css"', '<link rel="stylesheet"', $texte);
@@ -20,8 +22,8 @@ function html5cleaner($texte) {
 	$texte = str_replace('type="text/css" media="all">', 'media="all">', $texte);
 	$texte = str_replace('.css" type="text/css"', '.css"', $texte);
 	$texte = str_replace('<style type="text/css"', '<style', $texte);
-//  $texte = str_replace('<script type="text/javascript"', '<script', $texte); // The type attribute is unnecessary for JavaScript resources.
-//  $texte = str_replace('<script type=\'text/javascript\'', '<script', $texte);
+//	$texte = str_replace('<script type="text/javascript"', '<script', $texte); // The type attribute is unnecessary for JavaScript resources.
+//	$texte = str_replace('<script type=\'text/javascript\'', '<script', $texte);
 
 	// body tags
 	$texte = str_replace(' summary="summary"', '', $texte); // The summary attribute on the table element is obsolete.
@@ -29,7 +31,7 @@ function html5cleaner($texte) {
 	$texte = str_replace('acronym>', 'abbr>', $texte);
 
 	// figure
-	$texte = str_replace('<p><figure', '<figure', $texte);
+	$texte = str_replace('<p><figure', '<figure', $texte); // Fix SPIP bug with figure element.
 	$texte = str_replace('<p></figure></p>', '</figure>', $texte);
 
 	// br
