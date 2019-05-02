@@ -1,20 +1,24 @@
 <plugin>
-	<nom>HTML5 dans SPIP</nom>
+	<nom>HTML5</nom>
 	<prefix>html5</prefix>
 	<icon>html5.png</icon>
 
-	<version>0.2.5</version>
+	<version>0.3.0</version>
 	<etat>dev</etat>
 	<categorie>outil</categorie>
 
-	<slogan>Patch pour utiliser HTML5 dans SPIP</slogan>
+	<slogan>Patch pour mieux utiliser HTML5 dans SPIP</slogan>
 	<description>Ce plugin améliore l' usage de HTML5 dans votre site SPIP en ajoutant :
--* un patch pour émuler les balises HTML5 dans les vieux Internet Explorer,
--* une surcharge de certains formulaires SPIP.
+-* patch pour émuler les balises HTML5 dans les vieux Internet Explorer,
+-* surcharge de certains formulaires SPIP,
+-* correction des erreurs résiduelles dans le code généré.
 	</description>
-	<licence>GNU/GPL</licence>
 	<auteur>davux</auteur>
+	<auteur>[tetue->http://spip.tetue.net]</auteur>
+	<licence>GNU/GPL, WTFPL</licence>
 	<lien>https://contrib.spip.net/html5</lien>
+
+	<options>html5_options.php</options>
 
 	<pipeline>
 		<nom>insert_head_css</nom>
