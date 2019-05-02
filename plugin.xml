@@ -3,24 +3,19 @@
 	<prefix>html5</prefix>
 	<icon>html5.png</icon>
 
-	<version>0.2.3</version>
+	<version>0.2.4</version>
 	<etat>dev</etat>
 	<categorie>outil</categorie>
 
 	<slogan>Bases pour faire un site en HTML5</slogan>
 	<description>Ce plugin pose les bases pour faire un site en HTML5. Il fournit actuellement:
--* un sol commun pratique : reset CSS et un petit fichier javascript pour faire "voir" les balises &#224; Internet Explorer
--* une surcharge de certains formulaires de SPIP pour utiliser les nouveaux types d'<code><input></code>
+-* un patch pour émuler les balises HTML5 dans Internet Explorer aussi
+-* une surcharge de certains formulaires SPIP pour utiliser les nouveaux types d'<code><input></code>
 	</description>
 	<licence>GNU/GPL</licence>
 	<auteur>davux</auteur>
 	<lien>https://contrib.spip.net/html5</lien>
 
-	<pipeline>
-		<nom>insert_head</nom>
-		<action>insert_head</action>
-		<inclure>html5_pipelines.php</inclure>
-	</pipeline>
 	<pipeline>
 		<nom>insert_head_css</nom>
 		<action>insert_head_css</action>
