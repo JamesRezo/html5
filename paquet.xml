@@ -12,5 +12,5 @@
 	<licence>GNU/GPL</licence>
 
 	<pipeline nom="insert_head_css" inclure="html5_pipelines.php" />
-	<necessite id="figure" version="[1.0.1;]" />
+	<necessite nom="figure" compatibilite="[1.0.1;[" />
 </paquet>

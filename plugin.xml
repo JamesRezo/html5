@@ -8,9 +8,9 @@
 	<categorie>outil</categorie>
 
 	<slogan>Patch pour utiliser HTML5 dans SPIP</slogan>
-	<description>Ce plugin améliore l'usage de HTML5 dans SPIP en ajoutant :
--* un patch pour émuler les balises HTML5 dans Internet Explorer aussi
--* une surcharge de certains formulaires SPIP
+	<description>Ce plugin améliore l' usage de HTML5 dans votre site SPIP en ajoutant :
+-* un patch pour émuler les balises HTML5 dans les vieux Internet Explorer,
+-* une surcharge de certains formulaires SPIP.
 	</description>
 	<licence>GNU/GPL</licence>
 	<auteur>davux</auteur>
@@ -22,6 +22,6 @@
 		<inclure>html5_pipelines.php</inclure>
 	</pipeline>
 
-	<necessite id="SPIP" version="[2.0.0;3.2.99]" />
-	<necessite id="figure" version="[1.0.1;]" />
+	<necessite id="SPIP" version="[2.0.0;3.2.99]">
+	<necessite id="figure" version="[1.0.1;]">
 </plugin>
