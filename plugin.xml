@@ -7,7 +7,7 @@
 	<etat>dev</etat>
 	<categorie>outil</categorie>
 
-	<slogan>Mieux utiliser HTML5 dans SPIP</slogan>
+	<slogan>Améliorer l'usage de HTML5 dans SPIP</slogan>
 	<description>Ce plugin améliore l'usage de HTML5 dans votre site SPIP en ajoutant :
 -* un script pour émuler les balises HTML5 dans les vieux navigateurs,
 -* surcharge de certains formulaires SPIP,

@@ -10,7 +10,8 @@ https://contrib.spip.net/html5
 ## TODO
 * [ ? ] Les surcharges de formulaires SPIP y sont-elles toujours pertinentes ?
 * [x] Embarquer (necessite) plugin figure
-* [ ? ] Pourquoi pas embarquer une surcharge HTML5 de la dist ?
+* [ ? ] Pourquoi pas embarquer une surcharge HTML5 de la dist ?  
+voir https://zone.spip.org/trac/spip-zone/browser/_squelettes_/dist-html5/
 * [ ? ] Faut-il encore insérer un script émulant les balises HTML5 dans les vieux navigateurs (voir : https://twitter.com/tetue/status/1123585110970916865 ) ? Ou plutôt laisser cela à l’appréciation de chaque webmestre ?
 * [x] Corriger les erreurs résiduelles dans le code généré
 * [x] Forcer HTML5 dans SPIP (au cas où ça n’aurait pas été paramétré)
