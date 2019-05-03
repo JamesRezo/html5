@@ -12,7 +12,7 @@
 -* un script pour émuler les balises HTML5 dans les vieux navigateurs,
 -* surcharge de certains formulaires SPIP,
 -* correction des erreurs résiduelles dans le code généré,
--# en plus d'avoir activé HTML5 dans SPIP.
+-* sans oublier d'activer HTML5 dans SPIP.
 	</description>
 	<lien>https://contrib.spip.net/html5</lien>
 
