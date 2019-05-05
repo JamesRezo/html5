@@ -3,8 +3,8 @@
 	<prefix>html5</prefix>
 	<icon>html5.png</icon>
 
-	<version>1.0.1</version>
-	<etat>dev</etat>
+	<version>1.0.2</version>
+	<etat>test</etat>
 	<categorie>outil</categorie>
 
 	<slogan>Améliorer l'usage de HTML5 dans SPIP</slogan>
@@ -14,7 +14,7 @@
 -* correction des erreurs résiduelles dans le code généré,
 -* sans oublier d'activer HTML5 dans SPIP.
 	</description>
-	<lien>https://contrib.spip.net/html5</lien>
+	<lien>https://contrib.spip.net/5145</lien>
 
 	<auteur>davux, [tetue->http://spip.tetue.net]</auteur>
 	<licence>GNU/GPL, WTFPL</licence>
